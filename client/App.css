@@ -1,0 +1,58 @@
+
+body{
+    margin:0;
+}
+#appBody{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    margin:0;
+}
+nav{
+    background-color: gray;
+    
+}
+.navLink{
+    float: left;
+    color: aqua;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navLink:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.navLink:active{
+    background-color: #04AA6D;
+    color: white;
+}
+#appMain{
+    margin: 0;
+}
+
+.linkLi{
+    background-color: #04AA6D;
+    border:1px solid black;
+    color:white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+header{
+    text-align: center;
+    background-color: aquamarine;
+    
+}
+
+footer{
+    text-align: center;
+    background-color: aqua;
+    margin-top: auto;
+}
