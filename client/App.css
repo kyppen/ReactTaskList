@@ -2,6 +2,29 @@
 body{
     margin:0;
 }
+
+#mainContent{
+    border:5px solid silver;
+    margin:auto;
+    width:50%;
+    padding:10px;
+}
+.taskBox{
+    border:1px solid gray;
+    margin:10px;
+    padding:5px;
+    background-color: silver;
+}
+#addNewTask{
+    margin:auto;
+    padding:10px;
+    border: #04AA6D 5px solid;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #appBody{
     min-height: 100vh;
     display: flex;
@@ -53,6 +76,6 @@ header{
 
 footer{
     text-align: center;
-    background-color: aqua;
+    background-color: aquamarine;
     margin-top: auto;
 }

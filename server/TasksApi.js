@@ -15,7 +15,6 @@ const data = await mongoClient.db().collection("Task").find({}).toArray();
 
 console.log(data)
 
-
 mongoClient.connect().then((connection) => {
     const database = connection.db("TaskList")
     const collection = database.collection("Task")

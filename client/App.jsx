@@ -38,10 +38,12 @@ function Tasks(){
 
     return<>
     <h1>All Tasks</h1>
-    <div><Link to={"/"}>Add Task</Link></div>
+    <div id="mainContent">
     <form>
-            {tasks.map(m => (<div key={m._id}>{m.data}</div>)) }        
+            {tasks.map(m => (<div class="taskBox" key={m._id}>{m.data}</div>)) }        
     </form>
+    </div>
+    <div id="addNewTask"><Link id="addNewTaskText" to={"/tasks/new"}>Add Task</Link></div>
     </>
 }
 function AddNewTask(){
