@@ -7,6 +7,8 @@ const app = express();
 app.use(bodyParser.urlencoded())
 app.use(bodyParser.json())
 
+
+
 app.use("/api/tasks", TasksApi)
 
 app.use(express.static("../client/dist"))

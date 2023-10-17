@@ -20,6 +20,7 @@ function FrontPage(){
 async function FetchTasks(){
     const res = await fetch("/api/Tasks")
     const tasksJson = await res.json();
+    console.log(tasksJson)
     return tasksJson;
 }
 
@@ -39,7 +40,7 @@ function Tasks(){
     <h1>All Tasks</h1>
     <div><Link to={"/"}>Add Task</Link></div>
     <form>
-            {tasks.map(m => (<li key={m.id}><label><input value="s" type="button" onClick={(e) => {getSelected}}></input></label>{m.taskName}</li>)) }        
+            {tasks.map(m => (<div key={m._id}>{m.data}</div>)) }        
     </form>
     </>
 }
