@@ -6,6 +6,7 @@ import React, { useEffect, useState } from "react";
 
 function FrontPage(){
     return (
+        <div id="askAddFormBox">
         <ul>
             <li className="linkLi">
                 <Link to={"/Tasks"}>List Tasks</Link>
@@ -14,6 +15,7 @@ function FrontPage(){
                 <Link to={"/Tasks/new"}>Add new Task</Link>
             </li>
         </ul>
+        </div>
     )
 }
 
