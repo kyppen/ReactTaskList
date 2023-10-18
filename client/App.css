@@ -58,6 +58,7 @@ nav{
     margin: 0;
 }
 #TaskAddFormBox{
+    display:flex;
     margin:auto; 
     background-color: aqua;
     border: 5px solid green;
