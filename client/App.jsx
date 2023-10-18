@@ -6,7 +6,7 @@ import React, { useEffect, useState } from "react";
 
 function FrontPage(){
     return (
-        <div id="askAddFormBox">
+        <div id="TaskAddFormBox">
         <ul>
             <li className="linkLi">
                 <Link to={"/Tasks"}>List Tasks</Link>
