@@ -2,13 +2,16 @@ import express from "express";
 import {MongoClient} from "mongodb";
 import dotenv from "dotenv";
 
+
+
+
 dotenv.config()
 
 
 export const TasksApi = express.Router();
 
-
-const mongoClient = new MongoClient(process.env.url)
+console.log(process.env.MONGODB_URL)
+const mongoClient = new MongoClient(process.env.MONGODB_URL)
 
 const data = await mongoClient.db().collection("Task").find({}).toArray();
 
