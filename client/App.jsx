@@ -72,7 +72,8 @@ function AddNewTask(){
             console.log(error.message)
         }
     }
-    return <form onSubmit={handleSubmit}>
+    return <div id="TaskAddFormBox">
+        <form onSubmit={handleSubmit}>
         <label>
             Task:
             <input type="text" onChange={e => setTask(e.target.value)}></input>
@@ -80,6 +81,7 @@ function AddNewTask(){
         <p>{task}</p>
         <input type="submit" value="Submit"/>
     </form>
+    </div>
 }
 
 

@@ -57,6 +57,14 @@ nav{
 #appMain{
     margin: 0;
 }
+#TaskAddFormBox{
+    margin:auto; 
+    background-color: aqua;
+    border: 5px solid green;
+    width:50%;
+    justify-content: center;
+    align-items: center;
+}
 
 .linkLi{
     background-color: #04AA6D;
