@@ -38,7 +38,7 @@ nav{
 }
 .navLink{
     float: left;
-    color: aqua;
+    color: blue;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -76,6 +76,6 @@ header{
 
 footer{
     text-align: center;
-    background-color: aquamarine;
+    background-color: brown;
     margin-top: auto;
 }
